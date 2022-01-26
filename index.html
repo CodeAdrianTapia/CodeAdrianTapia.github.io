@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home | Portfolio template</title>
+    <meta name="description" content="Page-specific description">
+    <meta name="keywords" content="Page-specific keywords">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic"
+        rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/css/screen.min.css">
+    <link rel="stylesheet" href="static/css/custom.min.css">
+    <script src="static/js/head.min.js"></script>
+</head>
+
+<body>
+    <script>progressJs().setOptions({ overlayMode: true, theme: 'custom' }).start();
+        if (window.attachEvent) {
+            window.attachEvent('onload', function () { progressJs().end(); });
+        } else {
+            if (window.onload) {
+                var curronload = window.onload;
+                var newonload = function () {
+                    curronload();
+                    progressJs().end();
+                };
+                window.onload = newonload;
+            } else {
+                window.onload = function () { progressJs().end(); };
+            }
+        }</script>
+    <!-- Header-->
+    <header class="main-header">
+        <div class="first-nav">
+            <div class="container">
+                <nav class="first-nav__links">
+                    <ul>
+                        <li><a class="is-selected"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </nav><a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a>
+            </div>
+        </div>
+        <div class="second-nav js-nav">
+            <div class="container"><a class="second-nav__logo"><span></span></a>
+                <nav class="menu">
+                    <ul>
+                        <li><a class="js-link js-anchor is-selected" href="#home">Home</a></li>
+                        <li><a class="js-link js-anchor" href="#about">Quick Facts</a></li>
+                        <li><a class="js-link js-anchor" href="#services">Geography</a></li>
+                        <li><a class="js-link js-anchor" href="#process">Tourist Attractions</a></li>
+                        <li><a class="js-link js-anchor" href="#projects">Gallery</a></li>
+                        <li><a class="js-link js-anchor" href="#testimonials">Wildlife</a></li>
+                        <li><a class="js-link js-anchor" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header><!-- Home section-->
+    <section class="home-section" id="home">
+        <div class="home-section__bg"></div>
+        <div class="home-section__overlay">
+            <div class="container">
+                <header class="home-section__header">
+                    <h1>Yellow Stone National Park</h1>
+                    <h2>A Different experience.</h2>
+                </header>
+            </div>
+        </div>
+    </section><!-- About section-->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-card">
+                <header class="about-card__header">
+                    <h2>Quick Facts</h2>
+                    <h4></h4>
+                </header>
+                <div class="about-card__info">
+                    <blockquote>
+                        <p>Yellowstone was established on March 1, 1872.</p>
+                    </blockquote>
+                    <blockquote>
+                        <p>It is the world's first National Park.</p>
+                    </blockquote>
+                    <blockquote>
+                        <p>Yellowstone has more than 1800 archaeological sites.</p>
+                    </blockquote>
+                    <blockquote>
+                        <p>There are more than 290 waterfalls.</p>
+                    </blockquote>
+                    <p class="about-card__info-status"><span></span></p>
+                </div>
+            </div>
+        </div>
+    </section><!-- Services section-->
+    <section class="common-section" id="services">
+        <div class="container">
+            <header class="common-section__header">
+                <h2>Geography</h2>
+                <h4></h4>
+            </header>
+            <div class="grid-container">
+                <ul class="services services_advisory">
+                    <li class="services__item icon icon_plan">
+                        <h4>It covers 3,472 square miles.</h4>
+                        <p></p>
+                    </li>
+                    <li class="services__item icon icon_plan">
+                        <h4>It is 2,221,776 acres.</h4>
+                        <p></p>
+                    </li>
+                    <li class="services__item icon icon_plan">
+                        <h4>96% of it is in Wyoming, 3% of it is in Montana, and 1% of it is in Idaho.</h4>
+                        <p></p>
+                    </li>
+                </ul>
+                <ul class="services services_pm">
+                    <li class="services__item icon icon_plan">
+                        <h4>The highest peak, Eagle Peak, is 11,358 ft.</h4>
+                        <p></p>
+                    </li>
+                    <li class="services__item icon icon_plan">
+                        <h4>The lowest point, Reese Creek, is at 5,282 feet.</h4>
+                        <p></p>
+                    </li>
+                    <li class="services__item icon icon_plan">
+                        <h4>It is 5% water-covered, 15% grassland covered, and 80% covered by forestlands.</h4>
+                        <p></p>
+                    </li>
+                </ul>
+                <div class="advantages">
+                    <h2>Why Yellowstone?</h2>
+                    <blockquote><b>
+                            <p>See it all by Car! Your own car is the safest way to travel now and that’s one of the
+                                best ways to see this park. Yellowstone has two loop roads, the 142-mile upper loop and
+                                the 96-mile lower loop, passing the park’s major attractions. The Lower Loop takes you
+                                to Old Faithful, the Grand Canyon of the Yellowstone, Hayden Valley, and the Grand
+                                Prismatic Spring, among other sights. The Upper Loop hits Mammoth Hot Spring Terraces,
+                                Obsidian Cliffs, Lamar Valley, and the Norris Geyser Basin.</p>
+                        </b><cite></cite></blockquote>
+                </div>
+            </div>
+        </div>
+    </section><!-- Process section-->
+    <section class="common-section" id="process">
+        <div class="container">
+            <header class="common-section__header">
+                <h2>Tourist Attractions</h2>
+                <h4></h4>
+            </header>
+            <div class="grid-container">
+                <ul class="process">
+                    <li class="process__step process__step_research">
+                        <div class="process__step-icon icon icon_research is-active"></div>
+                    </li>
+                    <li class="process__step-info process__step-info_research is-active">
+                        <h3><span>1</span> &mdash; West Thumb Geyser Basin</h3>
+                        <p>The West Thumb Geyser Basin is located on the shores of Yellowstone Lake. Although this is
+                            one of the smallest geyser basins in Yellowstone, it does contain a well-known geothermal
+                            feature, the Fishing Cone Geyser.Before 1911, anglers who were fishing in Yellowstone Lake
+                            near this geyser would sometimes plunk their catch still on the hook into the cone’s boiling
+                            water, effectively cooking it alive. That practice was outlawed in 1911. The West Thumb
+                            Basin is also home to several other geysers, bubbling mud pots, and hot springs, including
+                            the park’s deepest pool, the Abyss Pool. West Thumb Bay, where this basin is located, gets
+                            its name because Yellowstone Lake was described by an early expedition party as looking like
+                            a hand. And this western bay was said to look like the thumb of that hand.</p>
+                    </li>
+                    <li class="process__step process__step_develop">
+                        <div class="process__step-icon icon icon_research"></div>
+                    </li>
+                    <li class="process__step-info process__step-info_develop">
+                        <h3><span>2</span> &mdash; Mount Washburn</h3>
+                        <p>This mountain peak was named for Henry D. Washburn who led the Washburn-Langford-Doane
+                            Expedition that explored Yellowstone Park in 1870. Mount Washburn is one of the most popular
+                            places to hike in Yellowstone. There are two trails that ascend the mountain — one that
+                            starts at the Dunraven Pass Trailhead and another that begins at the Chittenden Road parking
+                            lot. Both offer breathtaking views of the surrounding area, but because of their popularity,
+                            they can be crowded during the peak tourism season. Although these trails are considered
+                            fairly easy, the high elevation does affect some hikers. Wild animals, including mountain
+                            goats and bears, can sometimes be seen from these trails.</p>
+                    </li>
+                    <li class="process__step process__step_deploy">
+                        <div class="process__step-icon icon icon_research"></div>
+                    </li>
+                    <li class="process__step-info process__step-info_deploy">
+                        <h3><span>3</span> &mdash; Hayden Valley</h3>
+                        <p>Because this valley is centrally, it is one of the most popular places for visitors to go to
+                            see wildlife. Large herds of buffalo can often be seen grazing on this valley’s meadows, and
+                            it’s not uncommon to spot elk, pronghorn antelopes and bears, as well. Fortunately, there
+                            are numerous turnouts in Hayden Valley where visitors can park to get a better view of the
+                            picturesque valley and its wildlife. Hayden Valley also boasts two trails where hikers can
+                            get an up-close-and personal view of the beautiful area. The Hayden Valley Trail runs from
+                            Yellowstone Lake to the Grand Canyon of the Yellowstone and shadows the Yellowstone River.
+                            The Mary Mountain Trail follows an old wagon trail and is said to be the park’s most popular
+                            trail. Caution must be taken when hiking in the valley, as bears often roam in this area.
+                        </p>
+                    </li>
+                    <li class="process__step process__step_deliver">
+                        <div class="process__step-icon icon icon_research"></div>
+                    </li>
+                    <li class="process__step-info process__step-info_deliver">
+                        <h3><span>4</span> &mdash; Mammoth Hot Springs</h3>
+                        <p>At Mammoth Hot Springs, steaming hot water flows over travertine terraces, creating a
+                            beautiful but otherworldly scene. Some people have even described Mammoth Hot Springs as a
+                            cave turned inside out. The Mammoth Hot Springs area is divided into two sections, the Upper
+                            and Lower Terraces. Each section contains numerous hot springs and a variety of interesting
+                            looking formations. This region of the park is also a good place to look for elk. They can
+                            often be seen hanging around the Mammoth Hot Spring visitor center. Though they appear tame,
+                            it is best that visitors always give them a wide berth, especially during the fall rutting
+                            season when the males can be particularly dangerous. Female elk with babies have also been
+                            known to charge visitors if they believe that they are getting too close to their young
+                            ones.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!-- Projects section-->
+    <section class="common-section" id="projects">
+        <header class="common-section__header">
+            <h2>Gallery</h2>
+            <p></p>
+        </header>
+        <div class="projects-wrap">
+            <div class="grid-container">
+                <div class="projects">
+                    <figure class="projects__item"><img src="static/images/projects/1.jpg"
+                            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Gray Wolf</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/2.jpg"
+                            alt="Donec lobortis, est iaculis rutrum feugiat">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Red Fox</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/5.jpg"
+                            alt="Duis feugiat, metus eu ullamcorper accumsan, massa risus dictum nisi">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Bison</a></figcaption>
+                    </figure>
+                    <figure class="projects__item">
+                        <img src="static/images/projects/6.jpg"
+                            alt="Donec non ligula imperdiet, tincidunt quam ut, pellentesque nisi">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Grizzly Bears</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/3.jpg"
+                            alt="Mauris a sem semper, maximus metus vitae, efficitur turpis">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Elk</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/4.jpg"
+                            alt="Nunc sit amet massa id sem pretium luctus">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Raven</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/7.jpg"
+                            alt="Nunc elementum arcu sit amet erat sodales fringilla">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Bobcats</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/8.jpg"
+                            alt="Cras condimentum venenatis aliquet">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Moose</a></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section><!-- Testimonials section-->
+    <section class="common-section" id="testimonials">
+        <div class="container">
+            <header class="common-section__header">
+                <h2>Wildlife</h2>
+                <p></p>
+            </header>
+            <div class="grid-container">
+                <ul class="testimonials">
+                    <li class="testimonials__item"><img src="static/images/logos/wolf.png"
+                            alt="Lorem ipsum dolor sit amet">
+                        <blockquote>
+                            <p class="icon icon_ql">Wolves are highly social animals and live in packs. Worldwide, pack
+                                size will depend on the size and abundance of prey. In Yellowstone, average pack size is
+                                10 individuals. The pack is a complex social family, with older members (often the alpha
+                                male and alpha female) and subordinates, each having individual personality traits and
+                                roles within the pack. Packs defend their territory from other, invading packs by
+                                howling and scent-marking with urine.
+                                <!--- Research in Yellowstone since reintroduction has
+                                highlighted the adaptive value of social living in wolves – from cooperative care of
+                                offspring, group hunting of large prey, defense of territory and prey carcasses, and
+                                even survival benefits to infirmed individuals.--->
+                            </p>
+                            <cite><span class="name">Gray Wolf</span><span class="role"></span></cite>
+                        </blockquote>
+                    </li>
+                    <li class="testimonials__item"><img src="static/images/logos/bison.png"
+                            alt="Lorem ipsum dolor sit amet">
+                        <blockquote>
+                            <p class="icon icon_ql">Yellowstone is the only place in the United States where bison
+                                (Bison bison) have lived continuously since prehistoric times. Yellowstone bison are
+                                exceptional because they comprise the nation’s largest bison population on public land.
+                                Unlike most other herds, this population has thousands of individuals that are allowed
+                                to roam relatively freely over the expansive landscape of Yellowstone National Park and
+                                some nearby areas of Montana. They also exhibit wild behavior like their ancient
+                                ancestors, congregating during the breeding season to compete for mates, as well as
+                                migration and exploration that result in the use of new habitat areas. These behaviors
+                                have enabled the successful restoration of a population that was on the brink of
+                                extinction just over a century ago.</p><cite><span class="name">Bison
+                                </span><span class="role"></span></cite>
+                        </blockquote>
+                    </li>
+                    <li class="testimonials__item"><img src="static/images/logos/coug.png"
+                            alt="Lorem ipsum dolor sit amet">
+                        <blockquote>
+                            <p class="icon icon_ql">The cougar (Puma concolor), also known as mountain lion, is the one
+                                of the largest cats in North America and a top predator native to Greater Yellowstone.
+                                (The jaguar, which occurs in New Mexico and Arizona, is larger.) As part of
+                                predator-removal campaigns in the early 1900s, cougars and wolves were killed throughout
+                                the lower 48 states, including national parks. Wolves (Canis lupus) were eradicated and,
+                                although cougars were probably eliminated from Yellowstone, the species survived in the
+                                West because of its cryptic nature and preference for rocky, rugged territory where the
+                                cats are difficult to track. Eventually the survivors re-established themselves in
+                                Yellowstone in the early 1980s, possibly making their way from wilderness areas in
+                                central Idaho.
+                            </p>
+                            <cite><span class="name">Cougar</span><span class="role"></span></cite>
+                        </blockquote>
+                    </li>
+                </ul>
+                <ul class="testimonials">
+                    <li class="testimonials__item"><img src="static/images/logos/bear.png"
+                            alt="Lorem ipsum dolor sit amet">
+                        <blockquote>
+                            <p class="icon icon_ql">Yellowstone is home to two species of bears: grizzly bears and black
+                                bears. Of the two species, grizzly bears have a much smaller range across the United
+                                States. The grizzly bear is typically larger than the black bear and has a large muscle
+                                mass above its shoulders; a concave, rather than straight or convex, facial profile; and
+                                much more aggressive behavior. The grizzly bear is a subspecies of brown bear that once
+                                roamed large swaths of the mountains and prairies of the American West. Today, the
+                                grizzly bear remains in a few isolated locations in the lower 48 states, including
+                                Yellowstone.In coastal Alaska and Eurasia, the grizzly bear is known as the brown bear.
+                            </p>
+                            <cite><span class="name">Grizzly Bears</span><span class="role">
+                                </span></cite>
+                        </blockquote>
+                    </li>
+                    <li class="testimonials__item"><img src="static/images/logos/elk.png"
+                            alt="Lorem ipsum dolor sit amet">
+                        <blockquote>
+                            <p class="icon icon_ql">Elk are the most abundant large mammal found in Yellowstone.
+                                European American settlers used the word “elk” to describe the animal, which is the word
+                                used in Europe for moose (causing great confusion for European visitors). The Shawnee
+                                word “wapiti,” which means “white deer” or “white-rumped deer,” is another name for elk.
+                                The North American elk is considered the same species as the red deer of Europe.
+                                Due to their huge antlers, bull elk are one of the most photographed animals in
+                                Yellowstone. Bull elk begin growing their first set of antlers when they are about one
+                                year old. Antler growth is triggered in spring by a combination of two factors: a
+                                depression of testosterone levels and lengthening daylight. The first result of this
+                                change is the casting or shedding of the previous year’s “rack.” Most bulls drop their
+                                antlers in March and April. New growth begins soon after.
+                            </p><cite><span class="name">Elk</span><span class="role">
+                                </span></cite>
+                        </blockquote>
+                    </li>
+                    <li class="testimonials__item"><img src="static/images/logos/beaver.png"
+                            alt="Lorem ipsum dolor sit amet">
+                        <blockquote>
+                            <p class="icon icon_ql">The beaver (Castor canadensis) is a keystone species that affects
+                                habitat structure and dynamics through the damming and diverting of streams, and the
+                                felling of trees and other woody vegetation. The resulting ponds and flooding help
+                                create an environment favorable to willow and aspen, the beavers’ preferred winter foods
+                                and used in building their lodges. The territoriality of beavers probably deters two
+                                colonies from locating within 165 feet (50 m) of each other, and most streams in the
+                                park lack either suitable vegetation or a sufficiently low gradient to provide beavers
+                                with habitat, but information about the distribution and number of beaver colonies in
+                                the park over time adds to our understanding about the long-term effects of changes in
+                                vegetation and climate. </p><cite><span class="name">Beaver</span><span
+                                    class="role"></span></cite>
+                        </blockquote>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!-- Contacts section-->
+    <div class="contacts-section" id="contacts">
+        <div class="container">
+            <section class="contact-card">
+                <header class="contact-card__header">
+                    <h2>Contact info</h2>
+                    <h4></h4>
+                </header>
+                <div class="contact-info">
+                    <div class="contact-info__logo">YS</div>
+                    <div class="contact-info__group">
+                        <div class="contact-info__additional">
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                        </div>
+                        <div class="contact-info__vcard vcard">
+                            <h4 class="fn org"></h4>
+                            <p class="role title"></p>
+                            <p class="icon icon_location"><a class="adr js-anchor"
+                                    href="https://www.nps.gov/yell/index.htm">Yellow Stone Website<span
+                                        class="country-name"></span>&nbsp;<span class="locality"></span></a></p>
+                            <p class="icon icon_mail"><a class="email"
+                                    href="mailto:contact@yellowstone.org">contact@yellowstone.org</a></p>
+                            <p class="icon icon_phone"><a class="email" href="tel:+307-344-2263">307-344-2263</a></p>
+                        </div>
+                        <ul class="contact-info__social">
+                            <li><a rel="nofollow">I'm on Facebook</a></li>
+                            <li><a rel="nofollow">My Twitter</a></li>
+                            <li><a rel="nofollow">I'm on Google+</a></li>
+                            <li><a rel="nofollow">I'm in Vk</a></li>
+                            <li><a rel="nofollow">My Linkedin profile</a></li>
+                            <li><a rel="nofollow">RSS feed... maybe</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="gmap" id="gmap"></div>
+    </div><!-- Footer-->
+    <footer class="main-footer">
+        <div class="container">
+            <p class="main-footer__copyright"><span></span></p><a class="main-footer__gotop icon icon_gotop js-anchor"
+                href="#home">To top!</a>
+            <p class="main-footer__links">&nbsp;<a href="http://orlovmax.com"></a></p>
+        </div>
+    </footer>
+    <script src="static/js/body.min.js"></script>
+</body>
+
+</html>
